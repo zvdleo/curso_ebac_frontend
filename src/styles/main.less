@@ -1,0 +1,57 @@
+@fontePrincipal: Roboto, sans-serif;
+@fonteDoTitulo: Lobster, cursive;
+@corDeFundo: #979359;
+@corText: #000;
+@corGrunt:  #ffae00;
+
+
+body {
+    background-color: @corDeFundo;
+    font-family: @fontePrincipal;
+}
+
+h1 {
+    font-family: @fonteDoTitulo;
+    font-size: 2em;
+    color: @corText;
+}
+
+main {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+label {
+    display: flex;
+    margin: 12px auto;
+    font-size: 0.8em;
+    width: 30%;
+    text-align: left;
+    color: @corText;
+}
+
+input {
+    display: block;
+    margin: 16px auto;
+    font-size: 0.7em;
+    width: 30%;
+    text-align: left;
+    color: @corText;
+}
+
+button {
+    padding: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 25%;
+    font-size: 1em;
+    margin-top: 16px;
+    border-radius: 8px;
+    background-color: @corGrunt;
+    color: @corText;
+    font-family: @fontePrincipal;
+}
